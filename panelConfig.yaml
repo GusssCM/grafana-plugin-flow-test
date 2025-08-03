@@ -259,7 +259,8 @@ cells:
 mappings:
   - query: A
     field: value
-    unit: percent
+    unit: lengthmm
     label: "Vattennivå"
-    text: "${value} %"
+    text: "${value} mm"
+    icon: fa-tint
     thresholds: *thresholds-high
