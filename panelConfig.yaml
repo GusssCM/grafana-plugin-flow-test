@@ -255,3 +255,11 @@ cells:
     link: *grafana-home
   vessel2: *vessel
   vessel3: *vessel
+
+mappings:
+  - query: A
+    field: value
+    unit: percent
+    label: "Vattennivå"
+    text: "${value} %"
+    thresholds: *thresholds-high
