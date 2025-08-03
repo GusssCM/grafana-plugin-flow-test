@@ -258,7 +258,7 @@ cells:
 
 mappings:
   - query: A
-    field: value
+    field: tank_hojd_mm #måste stämma med data i key/value
     unit: lengthmm
     label: "Vattennivå"
     text: "${value} mm"
