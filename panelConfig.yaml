@@ -225,7 +225,7 @@ cells:
     dataRef: "tank_hojd_mm" #"test-data-small-sin"
     label:
       separator: "replace"
-      units: "pps"
+      units: "mm"
     fillColor:
       thresholds: *thresholds-slow
     fillLevel:
