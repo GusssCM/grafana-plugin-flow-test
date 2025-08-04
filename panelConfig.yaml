@@ -256,5 +256,20 @@ cells:
   vessel2: *vessel
   vessel3: *vessel
 
-   #----------------------------------------------------------------------------
-
+ #----------------------------------------------------------------------------
+cell-tanknivarektangel:
+    dataRef: "tank_hojd_mm"
+    label:
+      separator: "replace"
+      units: "mm"
+    fillColor:
+      thresholds:
+        - {color: "green", level: 2000}
+        - {color: "orange", level: 5000}
+        - {color: "red", level: 7000}
+    fillLevel:
+      thresholdLwrFillPercent: 0
+      thresholdUprFillPercent: 100
+      thresholdLwrValue: 0
+      thresholdUprValue: 7000
+      fillDirection: 'bottomToTop'
