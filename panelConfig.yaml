@@ -255,3 +255,20 @@ cells:
     link: *grafana-home
   vessel2: *vessel
   vessel3: *vessel
+
+   #----------------------------------------------------------------------------
+  # Rectangle by GUSSSCM
+  # We add and fill up a rectangle
+    tanknivarektangel:
+    dataRef: tank_hojd_mm
+    label:
+      text: "${value} mm"
+    fillColor:
+      thresholds: *thresholds-high
+    fillLevel:
+      thresholdLwrFillPercent: 0
+      thresholdUprFillPercent: 100
+      thresholdLwrValue: 0
+      thresholdUprValue: 10000
+      fillDirection: 'bottomToTop'
+
