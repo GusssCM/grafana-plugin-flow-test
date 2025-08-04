@@ -258,7 +258,7 @@ cells:
 
  #----------------------------------------------------------------------------
 tanknivarektangel:
-    dataRef: "A - tank_hojd_mm"
+    dataRef: "test-data-small-sin"
     label:
       separator: "replace"
       units: "mm"
