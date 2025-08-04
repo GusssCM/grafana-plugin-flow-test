@@ -257,9 +257,6 @@ cells:
   vessel3: *vessel
 
  #----------------------------------------------------------------------------
-cellIdPreamble: "cell-"
-
-cells:
   tanknivarektangel:
     dataRef: "A - tank_hojd_mm"
     label:
