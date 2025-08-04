@@ -255,6 +255,18 @@ cells:
     link: *grafana-home
   vessel2: *vessel
   vessel3: *vessel
+pool:
+    dataRef: tank_hojd_mm
+    label:
+      text: "${value} mm"
+    fillColor:
+      thresholds: *thresholds-high
+    fillLevel:
+      thresholdLwrFillPercent: 0
+      thresholdUprFillPercent: 100
+      thresholdLwrValue: 0
+      thresholdUprValue: 1000
+      fillDirection: 'bottomToTop'
 
 mappings:
   - query: A
