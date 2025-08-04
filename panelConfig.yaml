@@ -222,7 +222,7 @@ cells:
       fillDirection: 'rightToLeft'
     link: *grafana-home
   tanknivarektangel:
-    dataRef: "A - tank_hojd_mm" #"test-data-small-sin"
+    dataRef: "tank_hojd_mm" #"test-data-small-sin"
     label:
       separator: "replace"
       units: "pps"
