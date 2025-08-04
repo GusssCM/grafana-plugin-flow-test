@@ -259,16 +259,19 @@ cells:
    #----------------------------------------------------------------------------
   # Rectangle by GUSSSCM
   # We add and fill up a rectangle
-    tanknivarektangel:
-    dataRef: tank_hojd_mm
+      cell-tanknivarektangel:
+    dataRef: "tank_hojd_mm"
     label:
-      text: "${value} mm"
+      separator: "replace"
+      units: "mm"
     fillColor:
-      thresholds: *thresholds-high
+      thresholds:
+        - {color: "green", level: 500}
+        - {color: "orange", level: 1000}
+        - {color: "red", level: 1500}
     fillLevel:
       thresholdLwrFillPercent: 0
       thresholdUprFillPercent: 100
       thresholdLwrValue: 0
-      thresholdUprValue: 10000
+      thresholdUprValue: 2000
       fillDirection: 'bottomToTop'
-
