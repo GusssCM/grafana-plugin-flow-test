@@ -257,7 +257,7 @@ cells:
   vessel3: *vessel
 
  #----------------------------------------------------------------------------
-cell-tanknivarektangel:
+tanknivarektangel:
     dataRef: "tank_hojd_mm"
     label:
       separator: "replace"
