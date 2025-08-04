@@ -207,7 +207,7 @@ cells:
       thresholdUprValue: 200
       fillDirection: 'topToBottom'
     link: *grafana-home
-  box3:
+  testblock:
     dataRef: "test-data-small-sin"
     label:
       separator: "replace"
@@ -221,7 +221,7 @@ cells:
       thresholdUprValue: 200
       fillDirection: 'rightToLeft'
     link: *grafana-home
-  box6:
+  tanknivarektangel:
     dataRef: "test-data-small-sin"
     label:
       separator: "replace"
