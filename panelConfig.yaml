@@ -257,8 +257,11 @@ cells:
   vessel3: *vessel
 
  #----------------------------------------------------------------------------
-tanknivarektangel:
-    dataRef: "test-data-small-sin"
+cellIdPreamble: "cell-"
+
+cells:
+  tanknivarektangel:
+    dataRef: "A - tank_hojd_mm"
     label:
       separator: "replace"
       units: "mm"
@@ -273,3 +276,30 @@ tanknivarektangel:
       thresholdLwrValue: 0
       thresholdUprValue: 7000
       fillDirection: 'bottomToTop'
+
+  box12:
+    dataRef: "test-data-small-sin"
+    fillColor:
+      thresholds:
+        - {color: "green", level: 50}
+        - {color: "red", level: 100}
+    fillLevel:
+      thresholdLwrFillPercent: 0
+      thresholdUprFillPercent: 100
+      thresholdLwrValue: 0
+      thresholdUprValue: 200
+      fillDirection: 'bottomToTop'
+
+  testblock:
+    dataRef: "test-data-small-sin"
+    fillColor:
+      thresholds:
+        - {color: "blue", level: 50}
+        - {color: "yellow", level: 100}
+    fillLevel:
+      thresholdLwrFillPercent: 0
+      thresholdUprFillPercent: 100
+      thresholdLwrValue: 0
+      thresholdUprValue: 200
+      fillDirection: 'topToBottom'
+
