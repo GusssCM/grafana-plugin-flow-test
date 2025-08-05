@@ -221,7 +221,7 @@ cells:
       thresholdUprValue: 200
       fillDirection: 'rightToLeft'
     link: *grafana-home
-tanknivarektangel:
+  tanknivarektangel:
     dataRef: "tank_hojd_mm" #det ska vara namnet på data in (A query behöver inte vara med 
     label:
       separator: "replace"
