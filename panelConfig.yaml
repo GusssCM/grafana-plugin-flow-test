@@ -222,7 +222,7 @@ cells:
       fillDirection: 'rightToLeft'
     link: *grafana-home
 tanknivarektangel:
-  dataRef: "tank_hojd_mm"  # ✅ korrekt – du behöver inte "A - ..." om det inte visas så i Inspect
+  dataRef: "tank_hojd_mm"  # korrekt – du behöver inte "A - ..." om det inte visas så i Inspect
   label:
     separator: "replace"
     units: "pps"
@@ -232,7 +232,7 @@ tanknivarektangel:
     thresholdLwrFillPercent: 0
     thresholdUprFillPercent: 100
     thresholdLwrValue: 0
-    thresholdUprValue: 6500   # ✅ anpassat efter sensorvärdet
+    thresholdUprValue: 6500   # anpassat efter sensorvärdet
     fillDirection: 'bottomToTop'
   link: *grafana-home
 
