@@ -222,19 +222,19 @@ cells:
       fillDirection: 'rightToLeft'
     link: *grafana-home
 tanknivarektangel:
-  dataRef: "tank_hojd_mm"  # korrekt – du behöver inte "A - ..." om det inte visas så i Inspect
-  label:
-    separator: "replace"
-    units: "pps"
-  fillColor:
-    thresholds: *thresholds-slow
-  fillLevel:
-    thresholdLwrFillPercent: 0
-    thresholdUprFillPercent: 100
-    thresholdLwrValue: 0
-    thresholdUprValue: 6500   # anpassat efter sensorvärdet
-    fillDirection: 'bottomToTop'
-  link: *grafana-home
+    dataRef: "tank_hojd_mm" #det ska vara namnet på data in (A query behöver inte vara med 
+    label:
+      separator: "replace"
+      units: "pps"
+    fillColor:
+      thresholds: *thresholds-slow
+    fillLevel:
+      thresholdLwrFillPercent: 0
+      thresholdUprFillPercent: 100
+      thresholdLwrValue: 0
+      thresholdUprValue: 6500 #sätt det värde du har på tanken 
+      fillDirection: 'bottomToTop'
+    link: *grafana-home
 
   #----------------------------------------------------------------------------
   # The three vessels show how all shapes, even shapes defined via a 'path' can
