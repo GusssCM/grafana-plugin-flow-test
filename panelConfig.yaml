@@ -207,7 +207,7 @@ cells:
       thresholdUprValue: 200
       fillDirection: 'topToBottom'
     link: *grafana-home
-  testblock:
+  box3:
     dataRef: "test-data-small-sin"
     label:
       separator: "replace"
@@ -221,8 +221,8 @@ cells:
       thresholdUprValue: 200
       fillDirection: 'rightToLeft'
     link: *grafana-home
-  tanknivarektangel:
-    dataRef: "tank_hojd_mm" #det ska vara namnet på data in (A query behöver inte vara med 
+  box6:
+    dataRef: "test-data-small-sin"
     label:
       separator: "replace"
       units: "pps"
@@ -232,7 +232,7 @@ cells:
       thresholdLwrFillPercent: 0
       thresholdUprFillPercent: 100
       thresholdLwrValue: 0
-      thresholdUprValue: 6500 #sätt det värde du har på tanken 
+      thresholdUprValue: 200
       fillDirection: 'bottomToTop'
     link: *grafana-home
 
@@ -255,5 +255,3 @@ cells:
     link: *grafana-home
   vessel2: *vessel
   vessel3: *vessel
-
- #----------------------------------------------------------------------------
