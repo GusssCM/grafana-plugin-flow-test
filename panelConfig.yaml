@@ -221,20 +221,20 @@ cells:
       thresholdUprValue: 200
       fillDirection: 'rightToLeft'
     link: *grafana-home
-  tanknivarektangel:
-    dataRef: "tank_hojd_mm" #"test-data-small-sin"
-    label:
-      separator: "replace"
-      units: "mm"
-    fillColor:
-      thresholds: *thresholds-slow
-    fillLevel:
-      thresholdLwrFillPercent: 0
-      thresholdUprFillPercent: 100
-      thresholdLwrValue: 0
-      thresholdUprValue: 7000
-      fillDirection: 'bottomToTop'
-    link: *grafana-home
+tanknivarektangel:
+  dataRef: "tank_hojd_mm"  # ✅ korrekt – du behöver inte "A - ..." om det inte visas så i Inspect
+  label:
+    separator: "replace"
+    units: "pps"
+  fillColor:
+    thresholds: *thresholds-slow
+  fillLevel:
+    thresholdLwrFillPercent: 0
+    thresholdUprFillPercent: 100
+    thresholdLwrValue: 0
+    thresholdUprValue: 6500   # ✅ anpassat efter sensorvärdet
+    fillDirection: 'bottomToTop'
+  link: *grafana-home
 
   #----------------------------------------------------------------------------
   # The three vessels show how all shapes, even shapes defined via a 'path' can
