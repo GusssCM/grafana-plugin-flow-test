@@ -240,7 +240,7 @@ cells:
   # The three vessels show how all shapes, even shapes defined via a 'path' can
   # have a controllable fill-level.
   vessel1: &vessel
-    dataRef: "tank_hojd_mm"
+    dataRef: "test-data-small-sin"
     label:
       separator: "replace"
       units: "pps"
