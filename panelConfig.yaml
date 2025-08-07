@@ -232,7 +232,7 @@ cells:
       thresholdLwrFillPercent: 0
       thresholdUprFillPercent: 100
       thresholdLwrValue: 0
-      thresholdUprValue: 5000
+      thresholdUprValue: 6500
       fillDirection: 'bottomToTop'
     link: *grafana-home
 
