@@ -14,7 +14,7 @@ anchorLinks:
   - thresholds: &thresholds-slow
       - {color: "green", level: 0}
       - {color: "orange", level: 80}
-      - {color: "blue", level: 150}
+      - {color: "blue", level: 100}
 
 # -----------------------------------------------------------------------------
 # Panel Config
